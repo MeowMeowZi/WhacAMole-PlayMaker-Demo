@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 8650814337483625052}
   - component: {fileID: 2387785474939308814}
   - component: {fileID: 4820117721067850547}
+  - component: {fileID: 4602349962152905221}
   m_Layer: 0
   m_Name: Hole
   m_TagString: Untagged
@@ -936,7 +937,7 @@ MonoBehaviour:
     EnableBreakpoints: 1
     editorFlags: 225
     activeStateName: 
-    mouseEvents: 0
+    mouseEvents: 1
     handleLevelLoaded: 0
     handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
@@ -1086,3 +1087,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4602349962152905221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761845364874359049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1775717093, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 8650814337483625052}
